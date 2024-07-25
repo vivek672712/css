@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Property</title>
+    <style>
+        .relative {
+            position: relative;
+            left: 50px;
+            top: 20px;
+            background-color: lightblue;
+        }
+        .absolute {
+            position: absolute;
+            left: 100px;
+            top: 50px;
+            background-color: lightgreen;
+        }
+        .fixed {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            background-color: lightcoral;
+        }
+        .sticky {
+            position: -webkit-sticky; /* For Safari */
+            position: sticky;
+            top: 0;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="relative">This is a relative positioned element.</div>
+    <div class="absolute">This is an absolute positioned element.</div>
+    <div class="fixed">This is a fixed positioned element.</div>
+    <h1 class="sticky">This is a sticky positioned element.</h1>
+    <p>Scroll down to see the sticky effect.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna eu erat condimentum cursus. Suspendisse potenti. Nullam suscipit nisi nec nisi malesuada, in mollis urna egestas. Nullam at metus quam. Nulla facilisi. Mauris vulputate ante a ultricies laoreet. Integer ac viverra sapien, ac commodo libero. Integer auctor mauris nec ipsum vehicula, ut mollis lorem scelerisque. Suspendisse in efficitur odio. Nulla ac mauris eget magna gravida vehicula.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna eu erat condimentum cursus. Suspendisse potenti. Nullam suscipit nisi nec nisi malesuada, in mollis urna egestas. Nullam at metus quam. Nulla facilisi. Mauris vulputate ante a ultricies laoreet. Integer ac viverra sapien, ac commodo libero. Integer auctor mauris nec ipsum vehicula, ut mollis lorem scelerisque. Suspendisse in efficitur odio. Nulla ac mauris eget magna gravida vehicula.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna eu erat condimentum cursus. Suspendisse potenti. Nullam suscipit nisi nec nisi malesuada, in mollis urna egestas. Nullam at metus quam. Nulla facilisi. Mauris vulputate ante a ultricies laoreet. Integer ac viverra sapien, ac commodo libero. Integer auctor mauris nec ipsum vehicula, ut mollis lorem scelerisque. Suspendisse in efficitur odio. Nulla ac mauris eget magna gravida vehicula.</p>
+</body>
+</html>

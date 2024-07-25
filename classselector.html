@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class Selector</title>
+    <!-- <style>
+        a:link {
+            color: blue;
+        }
+        a:visited {
+            color: purple;
+        }
+        a:hover {
+            color: red;
+        }
+        a:active {
+            color: green;
+        }
+        p:first-child {
+            color: orange;
+        }
+        p:last-child {
+            color: brown;
+        }
+    </style> -->
+    <!-- Pseudo Element Selector -->
+<style>
+    p::first-line {
+        font-weight: bold;
+        color: blue;
+    }
+    p::first-letter {
+        font-size: 2em;
+        color: red;
+    }
+    div::before {
+        content: "Before: ";
+        color: green;
+    }
+    div::after {
+        content: " :After";
+        color: green;
+    }
+</style>
+
+
+</head>
+<body>
+    <a href="#">This is a link</a>
+    <p>This is the first paragraph.</p>
+    <p>This is the second paragraph.</p>
+</body>
+</html>

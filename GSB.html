@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphics with Canvas</title>
+</head>
+<body>
+    <h1>Graphics with Canvas</h1>
+    <canvas id="myCanvas" width="500" height="500" style="border:1px solid #000000;"></canvas>
+
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#FF0000';
+        ctx.fillRect(20, 20, 150, 100);
+    </script>
+ <!-- Use Block Components in HTML -->
+ <header>
+    <h1>Header Section</h1>
+</header>
+
+<section>
+    <h2>Main Content</h2>
+    <div>
+        <p>This is a block element inside a div.</p>
+    </div>
+</section>
+
+<footer>
+    <p>Footer Section</p>
+</footer>
+
+<!-- Semantic Tags in HTML -->
+
+<main>
+    <article>
+        <h2>Article Title</h2>
+        <p>This is an article.</p>
+    </article>
+
+    <aside>
+        <h3>Related Content</h3>
+        <p>This is an aside section.</p>
+    </aside>
+</main>
+</body>
+</html>
